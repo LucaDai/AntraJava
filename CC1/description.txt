@@ -1,0 +1,9 @@
+Coding Challenge 1 - SongCache:
+getTopNSongsPlayed method:
+Create an array of ArrayLists to bucket sort elements inside the hashmap.
+Then loop from the end of the array to find the non-empty ArrayList and add songId to the result ArrayList to achieve the descending order.
+count down n at the same time, return result ArrayList if n becomes 0.
+Time complexity: O(N) + O(n)
+Using synchronized to achieve thread-safe.
+
+Having some problems running the test...
